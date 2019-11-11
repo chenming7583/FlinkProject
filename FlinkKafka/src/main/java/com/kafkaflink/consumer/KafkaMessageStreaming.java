@@ -5,21 +5,21 @@
  * Date:2019-5-24 23:29
  * Copyright (c) 2019, YBL All Rights Reserved.
  */
-package com.kafkatoflink.consumer;
+package com.kafkaflink.consumer;
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
-import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.api.java.tuple.Tuple;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.windowing.WindowFunction;
+import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
+import org.apache.flink.util.Collector;
 
 import java.util.Properties;
-import org.apache.flink.util.Collector;
 
 /**
  * ClassName: KafkaMessageStreaming <br/>

@@ -5,7 +5,7 @@
  * Date:2019-5-25 1:49
  * Copyright (c) 2019, YBL All Rights Reserved.
  */
-package com.kafkatoflink.producer;
+package com.kafkaflink.producer;
 
 import org.apache.kafka.clients.producer.*;
 

@@ -5,7 +5,7 @@
  * Date:2019-5-25 0:19
  * Copyright (c) 2019, YBL All Rights Reserved.
  */
-package com.kafkatoflink.consumer;
+package com.kafkaflink.consumer;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;

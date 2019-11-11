@@ -5,7 +5,7 @@
  * Date:2019-5-25 0:18
  * Copyright (c) 2019, YBL All Rights Reserved.
  */
-package com.kafkatoflink.consumer;
+package com.kafkaflink.consumer;
 
 import org.apache.flink.streaming.api.functions.AssignerWithPunctuatedWatermarks;
 import org.apache.flink.streaming.api.watermark.Watermark;
