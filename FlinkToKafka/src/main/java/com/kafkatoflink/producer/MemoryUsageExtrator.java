@@ -17,7 +17,7 @@ import com.sun.management.OperatingSystemMXBean;
  * date: 2019-5-25 1:51 <br/>
  * Description：
  *
- * @author chenm <chenming@ybl-group.com>
+ * @author chenm <20chenming08@163.com>
  * @version V1.0
  * @since JDK 1.8
  */

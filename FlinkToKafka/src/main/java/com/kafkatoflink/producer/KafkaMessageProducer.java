@@ -18,7 +18,7 @@ import java.util.Properties;
  * date: 2019-5-25 1:49 <br/>
  * Description：
  *
- * @author chenm <chenming@ybl-group.com>
+ * @author chenm <20chenming08@163.com>
  * @version V1.0
  * @since JDK 1.8
  */
@@ -26,7 +26,7 @@ public class KafkaMessageProducer {
 
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
-        props.put("bootstrap.servers", "192.168.20.130:9092");
+        props.put("bootstrap.servers", "flink:9092");
         props.put("acks", "all");
         props.put("retries", 0);
         props.put("batch.size", 16384);

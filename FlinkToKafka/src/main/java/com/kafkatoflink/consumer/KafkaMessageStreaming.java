@@ -28,7 +28,7 @@ import org.apache.flink.util.Collector;
  * date: 2019-5-24 23:29 <br/>
  * Description：
  *
- * @author chenm <chenming@ybl-group.com>
+ * @author chenm <20chenming08@163.com>
  * @version V1.0
  * @since JDK 1.8
  */
@@ -42,7 +42,7 @@ public class KafkaMessageStreaming {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
         Properties props = new Properties();
-        props.setProperty("bootstrap.servers", "192.168.20.130:9092");
+        props.setProperty("bootstrap.servers", "flink:9092");
         props.setProperty("group.id", "flink-group");
 
         //    args[0] = "test-0921";  //传入的是kafka中的topic

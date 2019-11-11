@@ -18,7 +18,7 @@ import org.apache.flink.util.Collector;
  * date: 2019-5-25 0:19 <br/>
  * Description：
  *
- * @author chenm <chenming@ybl-group.com>
+ * @author chenm <20chenming08@163.com>
  * @version V1.0
  * @since JDK 1.8
  */
