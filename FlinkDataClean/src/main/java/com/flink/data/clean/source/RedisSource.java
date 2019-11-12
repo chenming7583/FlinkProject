@@ -5,7 +5,7 @@
  * Date:2019/11/11 22:02
  * Copyright (c) 2019, XUNZHAOTECH All Rights Reserved.
  */
-package com.flink.data.clean;
+package com.flink.data.clean.source;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.slf4j.Logger;
